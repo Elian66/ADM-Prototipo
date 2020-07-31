@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TermosActivity">
+
+    <TextView
+        android:id="@+id/first_name"
+        android:textStyle="bold"
+        android:text="Olá, user!"
+        android:textSize="40sp"
+        android:textColor="#9E00FF"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Precisamos agora que você leia os nossos termos de uso e faça a sua assinatura digital para concluir o contrato"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <androidx.core.widget.NestedScrollView
+        android:background="@drawable/borda_edit_text"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="USO EXTERNO (“O presente documento é de uso restrito e está expressamente proibida a reprodução parcial, total ou alteração do mesmo, sob pena de aplicação das leis cabíveis)"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:scaleType="centerInside"
+                    android:src="@drawable/amanaus"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:textSize="17dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="TERMO DE CIÊNCIA E DECLARAÇÃO DO USUÁRIO DE ATENDIMENTO ÀS CONDIÇÕES PARA ADESÃO AO REGIME TARIFÁRIO SOCIAL"
+                    android:layout_weight="1.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/termos_a"
+                android:textColor="#000"
+                android:text="ÁGUAS DE MANAUS S/A, regularmente inscrita no CNPJ (MF) sob o nº. 03.264.927/0001-27, estabelecida na Av. André Araújo, nº 1.981, Aleixo – Manaus/AM, por meio do presente termo, concede, mediante as informações prestadas pelo titular da matricula de nº [         _           ], Sr (a) [___________________________________________________], inscrito (a) no CPF sob o nº [_________________________], os benefícios decorrentes da Tarifa Social, nos termos da clausula 5ª do 5º termo aditivo ao Contrato de Concessão de Abastecimento de Água e Esgotamento Sanitário da cidade de Manaus, firmado entre o Município de Manaus e a Manaus Ambiental, observado os termos a seguir expostos:"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:text="i) Neste ato, o beneficiário declara-se titular e usuário dos serviços de abastecimento de água e esgotamento sanitário de baixa renda;"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:text="ii) Declara ainda, estar ciente de que a manutenção do benefício concedido, consistente no enquadramento da presente matricula ao regime tarifário social, está condicionado ao atendimento dos requisitos previstos na Cl. 5.2 do 5º Termo Aditivo ao Contrato de Concessão;"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:text="iii) Afirma ser beneficiário de Programa de Assistência Social concedido pelo Governo;"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:text="iv) Manifesta-se ciente de que as demais condições previstas na cláusula 5ª, que regula os critérios para concessão da tarifa social, do 5º termo aditivo firmado entre a concessionária Manaus Ambiental e a Prefeitura Municipal de Manaus, são os seguintes: i) que seja o beneficiário usuário de classe residencial; ii) que o titular da ligação de água esteja inscrito em Programa de Assistência  Social concedido pelo Governo; iii) que possua o beneficiário água hidrometrada, sem violação, adulteração ou fraude; iv) que se mantenha adimplente com as faturas geradas a partir do enquadramento no tarifa social; v) que a primeira faixa de consumo é de 0 a 15 metros cúbicos, com desconto de 50 %; vi) que não possui o beneficiário  outra ligação sob sua titularidade; vii)  que perderá o benefício o usuário que for inadimplente após três faturas vencidas ou cuja ligação apresentar violação, adulteração ou fraude. "
+                android:layout_marginHorizontal="20dp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:text="O Declarante reconhece como verdadeiras todas as informações prestadas no presente termo de ciência e declaração, ciente de que a inobservância de quaisquer das condições ora declaradas, a omissão ou inveracidade de quaisquer das informações prestadas, poderá implicar na revogação do benefício tarifário concedido, sem prejuízo das demais sanções previstas na legislação em vigor."
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/termos_b"
+                android:text="Manaus, __ de ____ de 20__"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:paddingHorizontal="20dp"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:text="Aceitar"
+        android:textColor="#fff"
+        android:background="@drawable/borda_button"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
